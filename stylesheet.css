@@ -1,0 +1,41 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Richy';
+  src: url('fonts/Richy.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Bellefair';
+  src: url('fonts/Bellefair-Regular.ttf') format('truetype');
+}
+.site-title {
+  font-family: 'Bellefair', sans-serif;
+  font-size: clamp(40px, 10vw, 70px);
+  text-align: center;
+  font-weight: normal;
+  color: transparent;
+  margin: 80px 400px;
+  color: #1c1c1c;
+}
+.footer {
+  font-family: 'Bellefair', sans-serif;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  font-size: clamp(12px, 2vw, 14px);
+  box-shadow: 0 0px 14px rgba(0, 0, 0, 0.1);
+}
+.richy {
+  font-family: 'Richy', sans-serif;
+  font-size: clamp(12px, 2vw, 14px);
+  font-style: italic;  
+}
